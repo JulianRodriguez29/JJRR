@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" id="btn" value="Calcular" onclick='getRandom()'/><br>
+    <textarea id="aleatorios" rows="10" cols="50" ></textarea>
+    <br>
+    <script>
+        function getRandom(){
+            for(var f=0;f<10;f++)
+            {
+                var i=Math.random()+"\n";
+                document.getElementById("aleatorios").innerHTML=i;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+print('Jugar videojuegos')
+print('Jugar voleibol')
+print('Leer')
+print('Pasear a mi perro')
+print('Comer')

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="numerador1" value='0' cols="10" rows="1"> / <input type="text" id="denominador1" value='0' S
+        cols="10" rows="1">
+    <br>
+    <input type="text" id="numerador2" value='0' cols="10" rows="1"> / <input type="text" id="denominador2" value='0'
+        cols="10" rows="1">
+    <br>
+    <input type="button" id="btn" value="Convert" onclick='sumar()' /><br />
+    <div id="out1" cols="10" rows="1"></div> / <div id="out2" cols="10" rows="1"></div>
+    <script>
+        function sumar() {
+            let a = document.getElementById("numerador1").value
+            let b = document.getElementById("denomidor1").value
+            let c = document.getElementById("numerador2").value
+            let d = document.getElementById("denomidor2").value
+            let e = a + c;
+            let f = b + d;
+            document.getElementById("out1").innerHTML = e;
+            document.getElementById("out2").innerHTML = f;
+            console.log(e)
+            console.log(f)
+
+        }
+    </script>
+</body>
+
+</html>
